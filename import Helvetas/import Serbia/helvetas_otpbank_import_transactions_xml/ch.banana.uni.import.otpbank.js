@@ -33,9 +33,14 @@
  */
 function exec(inData, isTest) {
 
+    var conversionParam = "";
+    var intermediaryData = "";
+    var transactions = "";
+    var importUtilities = new ImportUtilities(Banana.document);
+
     var xmlData = {};
     try {
-        xmlData = JSON.parse(inData);
+        xmlData = Banana.Xml.parse(inData);
     }
     catch (e) {
         xmlData[0] = inData;
@@ -44,4 +49,49 @@ function exec(inData, isTest) {
     if (!xmlData)
         return "@Cancel";
 
+    if (isTest !== true && !importUtilities.verifyBananaAdvancedVersion())
+        return "@Cancel";
+
+    let otpBankFormat = new ImportOtpBankFormat(Banana.document);
+
+    var CSV_String = otpBankFormat.convertXmlToCsv(xmlData);
+    
+    var csvFile = Banana.Converter.csvToArray(CSV_String, ',', '"');          
+    var tsvFile = Banana.Converter.arrayToTsv(csvFile);
+    // Banana.Ui.showText("List of transactions present in the xml file", CSV_String);
+    return tsvFile;
 }
+
+/**
+ * <transakcija>
+ *   <datumknjizenja></datumknjizenja> accounting date
+ *   <duguje></duguje> debit
+ *   <potrazuje></potrazuje> credit
+ *   bankaccount
+ *   name
+ *   
+ * @param {*} banDocument 
+ */
+var ImportOtpBankFormat = class ImportOtpBankFormat extends ImportUtilities {
+    constructor(banDocument) {
+        super(banDocument);
+    }
+
+    convertXmlToCsv(xmlData) {
+        
+        var csvString = "Date" + '","' + "Description" + '","' + "Income" + '","' + "Expenses" + "\n";
+        var xmlRoot = xmlData.firstChildElement('izvod');                      
+        var entries = xmlRoot.firstChildElement('stavke');                       
+        var transactionNode = entries.firstChildElement('transakcija');                        
+        while (transactionNode) {                                                       
+            var date = transactionNode.firstChildElement('datumKnjizenja').text;                 
+            var amountDebit = transactionNode.firstChildElement('duguje').text;                
+            var amountCredit = transactionNode.firstChildElement('potrazuje').text;                  
+            var description = transactionNode.firstChildElement('detalji').firstChildElement('Opis').text;                  
+            csvString += ('"' + date + '","' + description + '","' + amountCredit + '","' + amountDebit + '"' + '\n');                            
+            transactionNode = transactionNode.nextSiblingElement('transakcija');                       
+        }
+        return csvString;
+    }
+}
+
