@@ -2,12 +2,12 @@
     "category": "Import",
     "country": "Universal",
     "countryCode": "un",
-    "description": "OTP Bank - Import movements .csv (Banana+ Advanced)",
-    "description.en": "OTP Bank - Import movements .csv (Banana+ Advanced)",
+    "description": "OTP Bank - Import movements .xml (Banana+ Advanced)",
+    "description.en": "OTP Bank - Import movements .xml (Banana+ Advanced)",
     "id": "ch.banana.uni.import.otpbank",
     "language": "en",
     "publisher": "Banana.ch",
-    "title": "OTP Bank - Import movements .csv (Banana+ Advanced)",
-    "title.en": "OTP Bank - Import movements .csv (Banana+ Advanced)",
+    "title": "OTP Bank - Import movements .xml (Banana+ Advanced)",
+    "title.en": "OTP Bank - Import movements .xml (Banana+ Advanced)",
     "version": "1.0"
 }

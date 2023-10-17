@@ -1,0 +1,10 @@
+^C:\USERS\JOEMB\BANANA\BANANAREPO\IMPORTHELVETAS\IMPORT HELVETAS\IMPORT SERBIA\HELVETAS_OTPBANK_IMPORT_TRANSACTIONS_XML\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/joemb/Banana/BananaRepo/ImportHelvetas/import Helvetas/import Serbia/helvetas_otpbank_import_transactions_xml" "-BC:/Users/joemb/Banana/BananaRepo/ImportHelvetas/import Helvetas/build" --check-stamp-file "C:/Users/joemb/Banana/BananaRepo/ImportHelvetas/import Helvetas/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

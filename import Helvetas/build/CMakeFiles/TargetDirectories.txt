@@ -1,0 +1,3 @@
+C:/Users/joemb/Banana/BananaRepo/ImportHelvetas/import Helvetas/build/CMakeFiles/ch.banana.uni.import.otpbank.dir
+C:/Users/joemb/Banana/BananaRepo/ImportHelvetas/import Helvetas/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/joemb/Banana/BananaRepo/ImportHelvetas/import Helvetas/build/CMakeFiles/ZERO_CHECK.dir
