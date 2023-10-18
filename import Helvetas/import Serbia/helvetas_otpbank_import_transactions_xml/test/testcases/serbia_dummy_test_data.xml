@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<izvod>
+    <valuta>
+        <oznaka>RSD</oznaka>
+        <sifra>432</sifra>
+    </valuta>
+    <racun>123456789087654321</racun>
+    <datum>2023-09-01</datum>
+    <brojIzvoda>34</brojIzvoda>
+    <konto>4002</konto>
+    <komitent>
+        <id>1234567</id>
+        <naziv>Predstavništvo HELVETAS Swiss Interc</naziv>
+        <pib>123456789</pib>
+        <maticniBroj>88888888</maticniBroj>
+    </komitent>
+    <prethodnoStanje>1234890.43</prethodnoStanje>
+    <DnevniPrometDugovni>4343.00</DnevniPrometDugovni>
+    <DnevniPrometPotrazni>0.00</DnevniPrometPotrazni>
+    <novoStanje>3131313.45</novoStanje>
+    <BrojNalogaZaduzenja>2</BrojNalogaZaduzenja>
+    <BrojNalogaOdobrenja>0</BrojNalogaOdobrenja>
+    <stavke>
+        <transakcija>
+            <id>64000954087002</id>
+            <duguje>400.00</duguje>
+            <potrazuje>0.00</potrazuje>
+            <datumKnjizenja>2023-09-01</datumKnjizenja>
+            <nalog>07432306563154</nalog>
+            <statistika>
+                <stat>
+                    <osnov>300</osnov>
+                    <iznos>200.00</iznos>
+                    <BrojKontrolnika></BrojKontrolnika>
+                    <GodinaKontrolnika></GodinaKontrolnika>
+                    <opis>060087654321</opis>
+                </stat>
+            </statistika>
+            <detalji>
+                <Predmet>8999777</Predmet>
+                <Opis>Naplata naknade sa loro računa/računa nerezidenta u dinarima</Opis>
+                <Instrumentplacanja>Doznake, kreditno pismo i čekovi</Instrumentplacanja>
+                <Nazahtev>OTPVRS22 OTP BANKA SRBIJA A.D. NOVI SAD</Nazahtev>
+                <Ponalogu>Predstavništvo HELVETAS Swiss Interc, 756 Švajcarska</Ponalogu>
+                <Ukorist>OTP BANKA SRBIJA A.D. NOVI SAD</Ukorist>
+                <Iznosinotroskovauvaluti>0.00</Iznosinotroskovauvaluti>
+                <Kontokorentnabanka>OTPVRS22 OTP BANKA SRBIJA A.D. NOVI SAD</Kontokorentnabanka>
+                <Posebnaoznaka>0</Posebnaoznaka>
+                <IznosuRSD>400.00</IznosuRSD>
+            </detalji>
+        </transakcija>
+        <transakcija>
+            <id>34000888555522</id>
+            <duguje>300.00</duguje>
+            <potrazuje>0.00</potrazuje>
+            <datumKnjizenja>2023-09-04</datumKnjizenja>
+            <nalog>07777705566666</nalog>
+            <statistika>
+                <stat>
+                    <osnov>200</osnov>
+                    <iznos>300.00</iznos>
+                    <BrojKontrolnika></BrojKontrolnika>
+                    <GodinaKontrolnika></GodinaKontrolnika>
+                    <opis>088823334444</opis>
+                </stat>
+            </statistika>
+            <detalji>
+                <Predmet>6604444</Predmet>
+                <Opis>Naplata naknade sa loro računa/računa nerezidenta u dinarima</Opis>
+                <Instrumentplacanja>Doznake, kreditno pismo i čekovi</Instrumentplacanja>
+                <Nazahtev>OTPVRS22 OTP BANKA SRBIJA A.D. NOVI SAD</Nazahtev>
+                <Ponalogu>Predstavništvo HELVETAS Swiss Interc, 756 Švajcarska</Ponalogu>
+                <Ukorist>OTP BANKA SRBIJA A.D. NOVI SAD</Ukorist>
+                <Iznosinotroskovauvaluti>0.00</Iznosinotroskovauvaluti>
+                <Kontokorentnabanka>OTPVRS22 OTP BANKA SRBIJA A.D. NOVI SAD</Kontokorentnabanka>
+                <Posebnaoznaka>0</Posebnaoznaka>
+                <IznosuRSD>300.00</IznosuRSD>
+            </detalji>
+        </transakcija>
+        <transakcija>
+            <id>64222999993332</id>
+            <duguje>100.00</duguje>
+            <potrazuje>0.00</potrazuje>
+            <datumKnjizenja>2023-09-05</datumKnjizenja>
+            <nalog>07777377773333</nalog>
+            <statistika>
+                <stat>
+                    <osnov>200</osnov>
+                    <iznos>100.00</iznos>
+                    <BrojKontrolnika></BrojKontrolnika>
+                    <GodinaKontrolnika></GodinaKontrolnika>
+                    <opis>089923234242</opis>
+                </stat>
+            </statistika>
+            <detalji>
+                <Predmet>8655558</Predmet>
+                <Opis>Naplata naknade sa loro računa/računa nerezidenta u dinarima</Opis>
+                <Instrumentplacanja>Doznake, kreditno pismo i čekovi</Instrumentplacanja>
+                <Nazahtev>OTPVRS22 OTP BANKA SRBIJA A.D. NOVI SAD</Nazahtev>
+                <Ponalogu>Predstavništvo HELVETAS Swiss Interc, 756 Švajcarska</Ponalogu>
+                <Ukorist>OTP BANKA SRBIJA A.D. NOVI SAD</Ukorist>
+                <Iznosinotroskovauvaluti>0.00</Iznosinotroskovauvaluti>
+                <Kontokorentnabanka>OTPVRS22 OTP BANKA SRBIJA A.D. NOVI SAD</Kontokorentnabanka>
+                <Posebnaoznaka>0</Posebnaoznaka>
+                <IznosuRSD>100.00</IznosuRSD>
+            </detalji>
+        </transakcija>
+    </stavke>
+</izvod>
