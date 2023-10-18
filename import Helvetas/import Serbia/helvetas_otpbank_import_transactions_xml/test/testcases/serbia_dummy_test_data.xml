@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <izvod>
     <valuta>
-        <oznaka>RSD</oznaka>
+        <oznaka>USD</oznaka>
         <sifra>432</sifra>
     </valuta>
     <racun>123456789087654321</racun>
@@ -10,7 +10,7 @@
     <konto>4002</konto>
     <komitent>
         <id>1234567</id>
-        <naziv>Predstavništvo HELVETAS Swiss Interc</naziv>
+        <naziv>BNP Paribas</naziv>
         <pib>123456789</pib>
         <maticniBroj>88888888</maticniBroj>
     </komitent>
@@ -40,11 +40,11 @@
                 <Predmet>8999777</Predmet>
                 <Opis>Naplata naknade sa loro računa/računa nerezidenta u dinarima</Opis>
                 <Instrumentplacanja>Doznake, kreditno pismo i čekovi</Instrumentplacanja>
-                <Nazahtev>OTPVRS22 OTP BANKA SRBIJA A.D. NOVI SAD</Nazahtev>
-                <Ponalogu>Predstavništvo HELVETAS Swiss Interc, 756 Švajcarska</Ponalogu>
-                <Ukorist>OTP BANKA SRBIJA A.D. NOVI SAD</Ukorist>
+                <Nazahtev>OTPARF33 Nova Scotia Bank</Nazahtev>
+                <Ponalogu>BNP Paribas, 75001 Paris</Ponalogu>
+                <Ukorist>Nova Scotia Bank</Ukorist>
                 <Iznosinotroskovauvaluti>0.00</Iznosinotroskovauvaluti>
-                <Kontokorentnabanka>OTPVRS22 OTP BANKA SRBIJA A.D. NOVI SAD</Kontokorentnabanka>
+                <Kontokorentnabanka>OTPARF33 Nova Scotia Bank</Kontokorentnabanka>
                 <Posebnaoznaka>0</Posebnaoznaka>
                 <IznosuRSD>400.00</IznosuRSD>
             </detalji>
@@ -68,11 +68,11 @@
                 <Predmet>6604444</Predmet>
                 <Opis>Naplata naknade sa loro računa/računa nerezidenta u dinarima</Opis>
                 <Instrumentplacanja>Doznake, kreditno pismo i čekovi</Instrumentplacanja>
-                <Nazahtev>OTPVRS22 OTP BANKA SRBIJA A.D. NOVI SAD</Nazahtev>
-                <Ponalogu>Predstavništvo HELVETAS Swiss Interc, 756 Švajcarska</Ponalogu>
-                <Ukorist>OTP BANKA SRBIJA A.D. NOVI SAD</Ukorist>
+                <Nazahtev>OTPRFE23 JP Morgan Chase</Nazahtev>
+                <Ponalogu>BNP Paribas, 75001 Paris</Ponalogu>
+                <Ukorist>JP Morgan Chase</Ukorist>
                 <Iznosinotroskovauvaluti>0.00</Iznosinotroskovauvaluti>
-                <Kontokorentnabanka>OTPVRS22 OTP BANKA SRBIJA A.D. NOVI SAD</Kontokorentnabanka>
+                <Kontokorentnabanka>OTPRFE23 JP Morgan Chase</Kontokorentnabanka>
                 <Posebnaoznaka>0</Posebnaoznaka>
                 <IznosuRSD>300.00</IznosuRSD>
             </detalji>
@@ -96,11 +96,11 @@
                 <Predmet>8655558</Predmet>
                 <Opis>Naplata naknade sa loro računa/računa nerezidenta u dinarima</Opis>
                 <Instrumentplacanja>Doznake, kreditno pismo i čekovi</Instrumentplacanja>
-                <Nazahtev>OTPVRS22 OTP BANKA SRBIJA A.D. NOVI SAD</Nazahtev>
-                <Ponalogu>Predstavništvo HELVETAS Swiss Interc, 756 Švajcarska</Ponalogu>
-                <Ukorist>OTP BANKA SRBIJA A.D. NOVI SAD</Ukorist>
+                <Nazahtev>OTPTOW55 JP Morgan Chase</Nazahtev>
+                <Ponalogu>BNP Paribas, 75001 Paris</Ponalogu>
+                <Ukorist>JP Morgan Chase</Ukorist>
                 <Iznosinotroskovauvaluti>0.00</Iznosinotroskovauvaluti>
-                <Kontokorentnabanka>OTPVRS22 OTP BANKA SRBIJA A.D. NOVI SAD</Kontokorentnabanka>
+                <Kontokorentnabanka>OTPTOW55 JP Morgan Chase</Kontokorentnabanka>
                 <Posebnaoznaka>0</Posebnaoznaka>
                 <IznosuRSD>100.00</IznosuRSD>
             </detalji>
