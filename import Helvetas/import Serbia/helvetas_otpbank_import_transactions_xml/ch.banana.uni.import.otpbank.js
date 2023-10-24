@@ -23,7 +23,7 @@
 // @task = import.transactions
 // @outputformat = transactions.simple
 // @inputdatasource = openfiledialog
-// @inputfilefilter = Text files (*.txt *.csv);;All files (*.*)
+// @inputfilefilter = Text files (*.xml);;All files (*.*)
 // @timeout = -1
 // @includejs = import.utilities.js
 
@@ -33,9 +33,6 @@
  */
 function exec(inData, isTest) {
 
-    var conversionParam = "";
-    var intermediaryData = "";
-    var transactions = "";
     var importUtilities = new ImportUtilities(Banana.document);
 
     var xmlData = {};
@@ -58,7 +55,6 @@ function exec(inData, isTest) {
     
     var csvFile = Banana.Converter.csvToArray(CSV_String, ',', '"');          
     var tsvFile = Banana.Converter.arrayToTsv(csvFile);
-    // Banana.Ui.showText("List of transactions present in the xml file", CSV_String);
     return tsvFile;
 }
 
@@ -79,15 +75,20 @@ var ImportOtpBankFormat = class ImportOtpBankFormat extends ImportUtilities {
 
     convertXmlToCsv(xmlData) {
         
-        var csvString = "Date" + '","' + "Description" + '","' + "Income" + '","' + "Expenses" + "\n";
+        var csvString = '"' + "Date" + '","' + "Description" + '","' + "Income" + '","' + "Expenses" + '"' + "\n";
         var xmlRoot = xmlData.firstChildElement('izvod');                      
         var entries = xmlRoot.firstChildElement('stavke');                       
         var transactionNode = entries.firstChildElement('transakcija');                        
         while (transactionNode) {                                                       
             var date = transactionNode.firstChildElement('datumKnjizenja').text;                 
             var amountDebit = transactionNode.firstChildElement('duguje').text;                
-            var amountCredit = transactionNode.firstChildElement('potrazuje').text;                  
-            var description = transactionNode.firstChildElement('detalji').firstChildElement('Opis').text;                  
+            var amountCredit = transactionNode.firstChildElement('potrazuje').text;    
+            var zab16_4_tag = transactionNode.firstChildElement('detalji').firstChildElement('Zab16_4');
+            var zab16_4_value = '';
+            if (zab16_4_tag) {
+                zab16_4_value = zab16_4_tag.text;
+            }             
+            var description = zab16_4_value + " " + transactionNode.firstChildElement('detalji').firstChildElement('Opis').text;                  
             csvString += ('"' + date + '","' + description + '","' + amountCredit + '","' + amountDebit + '"' + '\n');                            
             transactionNode = transactionNode.nextSiblingElement('transakcija');                       
         }
