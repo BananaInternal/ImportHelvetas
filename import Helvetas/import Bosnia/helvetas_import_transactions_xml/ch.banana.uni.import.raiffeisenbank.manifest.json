@@ -1,0 +1,13 @@
+{
+    "category": "Import",
+    "country": "Universal",
+    "countryCode": "un",
+    "description": "Raiffeisen Bank - Import movements .xml (Banana+ Advanced)",
+    "description.en": "Raiffeisen Bank - Import movements .xml (Banana+ Advanced)",
+    "id": "ch.banana.uni.import.raiffeisenbank",
+    "language": "en",
+    "publisher": "Banana.ch",
+    "title": "Raiffeisen Bank - Import movements .xml (Banana+ Advanced)",
+    "title.en": "Raiffeisen Bank - Import movements .xml (Banana+ Advanced)",
+    "version": "1.0"
+}
