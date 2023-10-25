@@ -88,7 +88,7 @@ var ImportOtpBankFormat = class ImportOtpBankFormat extends ImportUtilities {
             if (zab16_4_tag) {
                 zab16_4_value = zab16_4_tag.text;
             }             
-            var description = zab16_4_value + " " + transactionNode.firstChildElement('detalji').firstChildElement('Opis').text;                  
+            var description = zab16_4_value + ", " + transactionNode.firstChildElement('detalji').firstChildElement('Opis').text;                  
             csvString += ('"' + date + '","' + description + '","' + amountCredit + '","' + amountDebit + '"' + '\n');                            
             transactionNode = transactionNode.nextSiblingElement('transakcija');                       
         }
