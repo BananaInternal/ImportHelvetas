@@ -20,9 +20,9 @@
 %Begin test data
 \begin{tablevalue}{}{ l  l  l  l }
 Date & Description & Income & Expenses\\
-2023-09-01 &  Naplata naknade sa loro računa/računa nerezidenta u dinarima & 0.00 & 400.00\\
-2023-09-04 &  Naplata naknade sa loro računa/računa nerezidenta u dinarima & 0.00 & 300.00\\
-2023-09-05 &  Naplata naknade sa loro računa/računa nerezidenta u dinarima & 0.00 & 100.00\\
+2023-09-01 & Naplata naknade sa loro računa/računa nerezidenta u dinarima & 0.00 & 400.00\\
+2023-09-04 & Naplata naknade sa loro računa/računa nerezidenta u dinarima & 0.00 & 300.00\\
+2023-09-05 & Naplata naknade sa loro računa/računa nerezidenta u dinarima & 0.00 & 100.00\\
 \\
 \end{tablevalue}
 \end{document}

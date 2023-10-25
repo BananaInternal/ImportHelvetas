@@ -1,4 +1,4 @@
-%%info_test_name{serbia_dummy_test_data}
+%%info_test_name{serbia_dummy_test_data_zab_16}
 \documentclass{report}
 \usepackage{longtable}
 \usepackage{color}
@@ -23,6 +23,9 @@ Date & Description & Income & Expenses\\
 2023-09-01 & Naplata naknade sa loro računa/računa nerezidenta u dinarima & 0.00 & 400.00\\
 2023-09-04 & Naplata naknade sa loro računa/računa nerezidenta u dinarima & 0.00 & 300.00\\
 2023-09-05 & Naplata naknade sa loro računa/računa nerezidenta u dinarima & 0.00 & 100.00\\
+2023-06-05 & ELITE SYSTEMS LLC TOPOLIVACA 74 KRAGUJEVAC; Plaćanje sa dinarskog računa nerezidenta & 0.00 & 2000.00\\
+2023-06-05 & IT EXPERTS CORPORATION JOVINA 56 BEOGRAD; Plaćanje troškova u zemlji sa dinarskog računa nerezidenta & 0.00 & 3000.00\\
+2023-06-05 & TRIBE TECHNOLOGIES INC KARADZICA 214 BEOGRAD; Plaćanje troškova u zemlji sa dinarskog računa nerezidenta & 0.00 & 2500.00\\
 \\
 \end{tablevalue}
 \end{document}

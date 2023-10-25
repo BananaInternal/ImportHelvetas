@@ -60,6 +60,7 @@ TestImportOtpBankTrans.prototype.testImport = function () {
    var fileNameList = [];
 
    fileNameList.push("file:script/../test/testcases/serbia_dummy_test_data.xml");
+   fileNameList.push("file:script/../test/testcases/serbia_dummy_test_data_zab_16.xml");
 
    var parentLogger = this.testLogger;
    this.progressBar.start(fileNameList.length);

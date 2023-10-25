@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<izvod>
+    <valuta>
+        <oznaka>USD</oznaka>
+        <sifra>432</sifra>
+    </valuta>
+    <racun>123456789087654321</racun>
+    <datum>2023-09-01</datum>
+    <brojIzvoda>34</brojIzvoda>
+    <konto>4002</konto>
+    <komitent>
+        <id>1234567</id>
+        <naziv>BNP Paribas</naziv>
+        <pib>123456789</pib>
+        <maticniBroj>88888888</maticniBroj>
+    </komitent>
+    <prethodnoStanje>1234890.43</prethodnoStanje>
+    <DnevniPrometDugovni>4343.00</DnevniPrometDugovni>
+    <DnevniPrometPotrazni>0.00</DnevniPrometPotrazni>
+    <novoStanje>3131313.45</novoStanje>
+    <BrojNalogaZaduzenja>2</BrojNalogaZaduzenja>
+    <BrojNalogaOdobrenja>0</BrojNalogaOdobrenja>
+    <stavke>
+        <transakcija>
+            <id>64000954087002</id>
+            <duguje>400.00</duguje>
+            <potrazuje>0.00</potrazuje>
+            <datumKnjizenja>2023-09-01</datumKnjizenja>
+            <nalog>07432306563154</nalog>
+            <statistika>
+                <stat>
+                    <osnov>300</osnov>
+                    <iznos>200.00</iznos>
+                    <BrojKontrolnika></BrojKontrolnika>
+                    <GodinaKontrolnika></GodinaKontrolnika>
+                    <opis>060087654321</opis>
+                </stat>
+            </statistika>
+            <detalji>
+                <Predmet>8999777</Predmet>
+                <Opis>Naplata naknade sa loro računa/računa nerezidenta u dinarima</Opis>
+                <Instrumentplacanja>Doznake, kreditno pismo i čekovi</Instrumentplacanja>
+                <Nazahtev>OTPARF33 Nova Scotia Bank</Nazahtev>
+                <Ponalogu>BNP Paribas, 75001 Paris</Ponalogu>
+                <Ukorist>Nova Scotia Bank</Ukorist>
+                <Iznosinotroskovauvaluti>0.00</Iznosinotroskovauvaluti>
+                <Kontokorentnabanka>OTPARF33 Nova Scotia Bank</Kontokorentnabanka>
+                <Posebnaoznaka>0</Posebnaoznaka>
+                <IznosuRSD>400.00</IznosuRSD>
+            </detalji>
+        </transakcija>
+        <transakcija>
+            <id>34000888555522</id>
+            <duguje>300.00</duguje>
+            <potrazuje>0.00</potrazuje>
+            <datumKnjizenja>2023-09-04</datumKnjizenja>
+            <nalog>07777705566666</nalog>
+            <statistika>
+                <stat>
+                    <osnov>200</osnov>
+                    <iznos>300.00</iznos>
+                    <BrojKontrolnika></BrojKontrolnika>
+                    <GodinaKontrolnika></GodinaKontrolnika>
+                    <opis>088823334444</opis>
+                </stat>
+            </statistika>
+            <detalji>
+                <Predmet>6604444</Predmet>
+                <Opis>Naplata naknade sa loro računa/računa nerezidenta u dinarima</Opis>
+                <Instrumentplacanja>Doznake, kreditno pismo i čekovi</Instrumentplacanja>
+                <Nazahtev>OTPRFE23 JP Morgan Chase</Nazahtev>
+                <Ponalogu>BNP Paribas, 75001 Paris</Ponalogu>
+                <Ukorist>JP Morgan Chase</Ukorist>
+                <Iznosinotroskovauvaluti>0.00</Iznosinotroskovauvaluti>
+                <Kontokorentnabanka>OTPRFE23 JP Morgan Chase</Kontokorentnabanka>
+                <Posebnaoznaka>0</Posebnaoznaka>
+                <IznosuRSD>300.00</IznosuRSD>
+            </detalji>
+        </transakcija>
+        <transakcija>
+            <id>64222999993332</id>
+            <duguje>100.00</duguje>
+            <potrazuje>0.00</potrazuje>
+            <datumKnjizenja>2023-09-05</datumKnjizenja>
+            <nalog>07777377773333</nalog>
+            <statistika>
+                <stat>
+                    <osnov>200</osnov>
+                    <iznos>100.00</iznos>
+                    <BrojKontrolnika></BrojKontrolnika>
+                    <GodinaKontrolnika></GodinaKontrolnika>
+                    <opis>089923234242</opis>
+                </stat>
+            </statistika>
+            <detalji>
+                <Predmet>8655558</Predmet>
+                <Opis>Naplata naknade sa loro računa/računa nerezidenta u dinarima</Opis>
+                <Instrumentplacanja>Doznake, kreditno pismo i čekovi</Instrumentplacanja>
+                <Nazahtev>OTPTOW55 JP Morgan Chase</Nazahtev>
+                <Ponalogu>BNP Paribas, 75001 Paris</Ponalogu>
+                <Ukorist>JP Morgan Chase</Ukorist>
+                <Iznosinotroskovauvaluti>0.00</Iznosinotroskovauvaluti>
+                <Kontokorentnabanka>OTPTOW55 JP Morgan Chase</Kontokorentnabanka>
+                <Posebnaoznaka>0</Posebnaoznaka>
+                <IznosuRSD>100.00</IznosuRSD>
+            </detalji>
+        </transakcija>
+        <transakcija>
+            <id>11112222333333</id>
+            <duguje>2000.00</duguje>
+            <potrazuje>0.00</potrazuje>
+            <datumKnjizenja>2023-06-05</datumKnjizenja>
+            <nalog>55552343331122</nalog>
+            <statistika></statistika>
+            <detalji>
+                <Predmet>OUT230033333</Predmet>
+                <Opis>Plaćanje sa dinarskog računa nerezidenta</Opis>
+                <Zab16_3>RS12345111655511122777</Zab16_3>
+                <Zab16_4>ELITE SYSTEMS LLC TOPOLIVACA 74 KRAGUJEVAC</Zab16_4>
+                <Bankanalogodavca>BAYERISCHE LANDESBANK</Bankanalogodavca>
+                <Bankakorisnika>BAYERISCHE LANDESBANK</Bankakorisnika>
+                <sifraosnova>203</sifraosnova>
+                <Datumprijema>05.06.2023</Datumprijema>
+                <IznosuRSD>2,000.00</IznosuRSD>
+            </detalji>
+        </transakcija>
+        <transakcija>
+            <id>60003456710000</id>
+            <duguje>3000.00</duguje>
+            <potrazuje>0.00</potrazuje>
+            <datumKnjizenja>2023-06-05</datumKnjizenja>
+            <nalog>12345333331111</nalog>
+            <statistika></statistika>
+            <detalji>
+                <Predmet>NRP220001555</Predmet>
+                <Opis>Plaćanje troškova u zemlji sa dinarskog računa nerezidenta</Opis>
+                <Zab16_3>222-0000000000666-08 09</Zab16_3>
+                <Zab16_4>IT EXPERTS CORPORATION JOVINA 56 BEOGRAD</Zab16_4>
+                <Bankanalogodavca>BAYERISCHE LANDESBANK</Bankanalogodavca>
+                <Bankakorisnika>BAYERISCHE LANDESBANK</Bankakorisnika>
+                <sifraosnova>608</sifraosnova>
+                <Datumprijema>05.06.2023</Datumprijema>
+                <IznosuRSD>3,000.00</IznosuRSD>
+            </detalji>
+        </transakcija>
+        <transakcija>
+            <id>40007777807111</id>
+            <duguje>2500.00</duguje>
+            <potrazuje>0.00</potrazuje>
+            <datumKnjizenja>2023-06-05</datumKnjizenja>
+            <nalog>09466666931777</nalog>
+            <statistika></statistika>
+            <detalji>
+                <Predmet>NRP230001431</Predmet>
+                <Opis>Plaćanje troškova u zemlji sa dinarskog računa nerezidenta</Opis>
+                <Zab16_3>999-1111529995252-99 99 9991111000044466555</Zab16_3>
+                <Zab16_4>TRIBE TECHNOLOGIES INC KARADZICA 214 BEOGRAD</Zab16_4>
+                <Bankanalogodavca>BAYERISCHE LANDESBANK</Bankanalogodavca>
+                <Bankakorisnika>BAYERISCHE LANDESBANK</Bankakorisnika>
+                <sifraosnova>300</sifraosnova>
+                <Datumprijema>05.06.2023</Datumprijema>
+                <IznosuRSD>2,500.00</IznosuRSD>
+            </detalji>
+        </transakcija>
+    </stavke>
+</izvod>

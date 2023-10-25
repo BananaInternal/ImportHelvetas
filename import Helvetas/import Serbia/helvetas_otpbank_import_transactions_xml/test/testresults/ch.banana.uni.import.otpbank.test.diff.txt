@@ -1,8 +1,8 @@
 Test Banana Apps
 ----------------
 
-Date:        2023-10-24 19:03:27.811
-Duration:    00:00:00.031
+Date:        2023-10-25 10:53:24.393
+Duration:    00:00:00.048
 Application: BananaPlus 10.1.10.23270
 OS:          Windows-11
 Qt:          6.5.2
@@ -16,7 +16,7 @@ Test succesfully completed
 > Differences:   0
 > Added:         0
 > Deleted:       0
-> Identical:     56
-> Total results: 56
-> Total files:   2
+> Identical:     87
+> Total results: 87
+> Total files:   3
 

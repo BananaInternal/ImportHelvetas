@@ -85,10 +85,13 @@ var ImportOtpBankFormat = class ImportOtpBankFormat extends ImportUtilities {
             var amountCredit = transactionNode.firstChildElement('potrazuje').text;    
             var zab16_4_tag = transactionNode.firstChildElement('detalji').firstChildElement('Zab16_4');
             var zab16_4_value = '';
+            var description = '';
             if (zab16_4_tag) {
                 zab16_4_value = zab16_4_tag.text;
-            }             
-            var description = zab16_4_value + ", " + transactionNode.firstChildElement('detalji').firstChildElement('Opis').text;                  
+                description = zab16_4_value + "; " + transactionNode.firstChildElement('detalji').firstChildElement('Opis').text;
+            } else {
+                description = transactionNode.firstChildElement('detalji').firstChildElement('Opis').text;
+            }                           
             csvString += ('"' + date + '","' + description + '","' + amountCredit + '","' + amountDebit + '"' + '\n');                            
             transactionNode = transactionNode.nextSiblingElement('transakcija');                       
         }
