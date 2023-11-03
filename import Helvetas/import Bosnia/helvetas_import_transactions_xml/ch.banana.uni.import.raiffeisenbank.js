@@ -70,20 +70,19 @@ var ImportRaiffeisenBankFormat = class ImportRaiffeisenBankFormat extends Import
     }
 
     convertXmlToCsv(xmlData) {
-        var csvString = '"' + "Date" + '","' + "Description" + '","' + "Income" + '","' + "CategoryDes" + '"' + "\n";
+        var csvString = '"' + "Date" + '","' + "Description" + '","' + "Income" + '"' + "\n";
         var xmlRoot = xmlData.firstChildElement('IZ');
-        
         var accountNumber = xmlRoot.attribute('RACUN');
         Banana.console.log("Account Number: " + accountNumber);
         // Banana.console.log("Date: " + entry.attribute('DATUM_VALUTE'));
         var entry = xmlRoot.firstChildElement('PR');
         while(entry) {
-            var date = Banana.Converter.toInternalDateFormat(entry.attribute('DATUM_VALUTE'));
+            var date = Banana.Converter.toInternalDateFormat(entry.attribute('DATUM_VALUTE'), "dd.mm.yyyy");
             var description = entry.attribute('SVRHA'); 
-            var category = entry.attribute('SIFRA_DOZNAKE');
+            // var category = entry.attribute('SIFRA_DOZNAKE');
             var amount = Banana.Converter.toInternalNumberFormat(entry.attribute('IZNOS'), ",");
             // Banana.console.log("Date: " + date);
-            csvString += ('"' + date + '","' + description + '","' + amount + '","' + category + '"' + '\n');
+            csvString += ('"' + date + '","' + description + '","' + amount + '"' + '\n');
             entry = entry.nextSiblingElement('PR');
         }
         return csvString;
